@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203.exercise3.BeautifulFlowersController">
+  <tabs>
+      <Tab text="Rose">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="500.0">
+               <children>
+                  <ImageView fx:id="roseImage" fitHeight="250.0" fitWidth="250.0" layoutX="125.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="405.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#NextClick" prefWidth="65.0" text="Next" />
+                  <Label fx:id="roseLbl" layoutX="25.0" layoutY="350.0" prefHeight="100.0" prefWidth="450.0" text="Label" wrapText="true" />
+               </children>
+          </AnchorPane>
+        </content>
+      </Tab>
+    <Tab text="Calla Lily">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="405.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#NextClick" prefWidth="65.0" text="Next" />
+                  <ImageView fx:id="callaLilyImage" fitHeight="250.0" fitWidth="250.0" layoutX="125.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="25.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#PrevClick" prefWidth="65.0" text="Previous" />
+                  <Label fx:id="callaLilyLbl" layoutX="25.0" layoutY="350.0" prefHeight="100.0" prefWidth="450.0" text="Label" wrapText="true" />
+               </children>
+        </AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Canna">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="25.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#PrevClick" prefWidth="65.0" text="Previous" />
+                  <ImageView fx:id="cannaImage" fitHeight="250.0" fitWidth="250.0" layoutX="125.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="405.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#NextClick" prefWidth="65.0" text="Next" />
+                  <Label fx:id="cannaLbl" layoutX="25.0" layoutY="350.0" prefHeight="100.0" prefWidth="450.0" text="Label" wrapText="true" />
+               </children>
+          </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Bleeding Heart">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="bleedingHeartImage" fitHeight="250.0" fitWidth="250.0" layoutX="125.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="25.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#PrevClick" prefWidth="65.0" text="Previous" />
+                  <Button layoutX="405.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#NextClick" prefWidth="65.0" text="Next" />
+                  <Label fx:id="bleedingHeartLbl" layoutX="25.0" layoutY="350.0" prefHeight="100.0" prefWidth="450.0" text="Label" wrapText="true" />
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+      <Tab text="Cherry Blossom">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="cherryBlossomImage" fitHeight="250.0" fitWidth="250.0" layoutX="125.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="25.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#PrevClick" prefWidth="65.0" text="Previous" />
+                  <Label fx:id="cherryBlossomLbl" layoutX="25.0" layoutY="350.0" prefHeight="100.0" prefWidth="450.0" text="Label" wrapText="true" />
+               </children>
+          </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>
